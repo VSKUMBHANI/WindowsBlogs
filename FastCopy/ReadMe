@@ -1,1 +1,9 @@
-# FastCopy backup file.
+#FastCopy backup file.
+
+Incremental Backup Job with FastCopy
+
+Download and Install FastCopy in C:\ProgramFiles\FastCopy from the official website. https://fastcopy.jp/
+
+Download and Install mailsend-go in the same to FastCopy installed directory.
+
+Set schedule task with Task Scheduler to run it on specific schedule.
