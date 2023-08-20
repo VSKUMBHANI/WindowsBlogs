@@ -1,6 +1,8 @@
-# Blogs
-CloseOutlookIMAP is used to Close the Outlook application which is run in the background after closing it.<br>
+# Commands
 
+Run it in Command Prompt as Administrator
+
+CloseOutlookIMAP is used to Close the Outlook application which is run in the background after closing it.<br>
 +==========================+<br>
 |Disable Drive Redirection:| reg add "HKLM\SOFTWARE\Microsoft\Terminal Server Client" /v DisableDriveRedirection /t REG_DWORD /d 1 /f<br>
 +==========================+<br>
@@ -19,11 +21,9 @@ Hide application from Program and Features: reg add "HKLM\SOFTWARE\Microsoft\Win
 https://support.microsoft.com/en-us/topic/-access-denied-error-message-when-you-save-a-workbook-to-a-unc-share-in-excel-2010-or-excel-2013-4df84394-0cca-a756-436b-9494331218e7<br>
 reg add "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\General" /v EnableSimpleCopyForSaveToUNC /t REG_DWORD /d 1 /f<br>
 ===========================================================================================================================================
-
 Add secound in taskbar clock<br>
 reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ShowSecondsInSystemClock /t REG_DWORD /d 1 /f<br>
 ============================================================================================================================================<br>
-
 Clear Run history...<br>
 reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v Start_TrackProgs /t REG_DWORD /d 0 /f<br>
 ============================================================================================================================================<br>
