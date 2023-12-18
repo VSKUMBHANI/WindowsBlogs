@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\OneDrive]
+"SharePointOnPremFrontDoorUrl"="https://sharepoint.domain.com"
+"SharePointOnPremPrioritization"=dword:00000001
+"SharePointOnPremTenantName"="domain.com"
+"SilentAccountConfig"=dword:00000001
